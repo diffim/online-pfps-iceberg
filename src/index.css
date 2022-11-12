@@ -1,0 +1,71 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container section {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+
+  scroll-snap-align: center;
+}
+.container section:nth-of-type(1) {
+  background-color: darkslategray;
+  background-image: url("./images/Screenshot_97.png");
+
+  background-repeat: none;
+
+  background-size: 110%;
+  background-position-x: -40px;
+}
+.container section:nth-of-type(2) {
+  background-color: darkslategray;
+
+  background-repeat: none;
+  background-image: url("./images/Screenshot_98.png");
+  background-size: 115%;
+  background-position-x: -60px;
+  border-top: 15px rgb(0, 0, 0, 0.75) solid;
+}
+
+.container section:nth-of-type(3) {
+  background-color: darkslategray;
+
+  background-image: url("./images/Screenshot_99.png");
+  background-size: 120%;
+  background-position-x: -60px;
+  border-top: 15px rgb(0, 0, 0, 0.75) solid;
+}
+.container section:nth-of-type(4) {
+  background-color: darkslategray;
+
+  background-image: url("./images/Screenshot_100.png");
+  background-size: 120%;
+  border-top: 15px rgb(0, 0, 0, 0.75) solid;
+
+  background-position-x: -60px;
+}
+.container section:nth-of-type(5) {
+  background-color: darkslategray;
+
+  background-image: url("./images/Screenshot_101.png");
+  background-size: 250%;
+  border-top: 10px rgb(0, 0, 0, 0.6) solid;
+  background-position-x: -60px;
+}
